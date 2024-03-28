@@ -1,4 +1,4 @@
-# TF-PyTorch-Jax-NN
+# TF-PyTorch-Jax
 
 In this repo, I will create custom neural networks using the tensorflow, pytorch, and jax libraries commonly used for deep learning.
 
