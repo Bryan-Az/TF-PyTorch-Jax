@@ -50,7 +50,7 @@ A colab  pytorch lightening version of a classes based - 3 layer deep neural net
 
 ## References
 
-### References for non-linear Models using Tensorflow Einsum vs. Matrix Multiply
+### References for Numpy numerical & non-linear Models using Tensorflow Einsum vs. Matrix Multiply
 
 https://docs.google.com/presentation/d/1r0u-mOhrkDMRXkd4g2wgtbudZ2VCmCE0N3pTgTDWSw0/edit#slide=id.gbb803640d1_0_76 
 
