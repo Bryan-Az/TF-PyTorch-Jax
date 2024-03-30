@@ -1,0 +1,33 @@
+name: TF-PyTorch-Jax
+channels:
+ - pytorch
+ - tensorflow
+ - jax
+ - defaults
+dependencies:
+ - python=3.8
+ - ipykernel
+ - jupyter
+ - matplotlib
+ - transformers
+ - datasets
+ - pandas
+ - pip
+ - scikit-learn
+ - torchvision
+ - pip:
+    - fastai
+    - fsspec==2023.9.2
+    - jiwer
+    - Cython==0.29.21
+    - librosa==0.8.0
+    - phonemizer==2.2.1
+    - scipy
+    - matplotlib
+    - Unidecode==1.1.1
+    - numpy
+    - sentencepiece
+    - torch
+    - tensorflow
+    - jax
+    - jaxlib
