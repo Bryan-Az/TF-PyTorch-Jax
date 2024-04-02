@@ -10,23 +10,11 @@ In this section, manual backprop and chain rule based gradient propagation will 
 
 ## Tensorflow Neural Networks
 
-### Non-linear Models using Tensorflow Einsum vs. Matrix Multiply
+### Tensorflow Low-Level (custom) API Network using Matrix Multiply
+In this section I built a Tensorflow model using the low level (functional/keras) api. A 3 layer deep non-linear Tensorflow neural network using a simple matrix multiplication in the custom forward method. 3 variables will be used in the non linear equation. Synthetically generated data will be processed with the non-linear equation and plotted using a 4d plot.
 
-#### A 3 layer deep non-linear Tensorflow neural network using matrix multiply
-
-3 variables will be using in the non linear equation. Synthetically generated data will be processed with the non-linear equation and plotted using a 4d plot.
-
-#### A 3 layer deep non-linear Tensorflow neural network using tensorflow einsum
-
-A 3 layer deep neural network using tensorflow einsum instead of matrix multiply. 
-
-### Tensorflow Low-Level (custom) vs High-Level API Networks
-
-#### Tensorflow Low-Level (custom) API Network
-In this section I built a Tensorflow model using the low level (functional/keras) api.
-
-#### Tensorflow High-Level API Network
-In this section I built a Tensorflow model using the high level tensorflow api.
+### Tensorflow High-Level API Network using Tensorflow Einsum
+In this section I built a Tensorflow model using the high level tensorflow api. This 3-layer deep neural network will be using tensorflow's einsum instead of matrix multiplication in the forward method. A similar methodology will be used as in the low-level model (synthetically generated 3-dimensional data and 4-d plotting visual exploration and evaluation of the results)
 
 ## Jax Neural Network
 Jax's high-level class-based API will be used to create a custom neural network.
@@ -34,13 +22,13 @@ Jax's high-level class-based API will be used to create a custom neural network.
 ## Pytorch Neural Networks
 In this section, I use custom and built-in PyTorch methods to build non-linear regression models.
 
-### Non-linear custom Pytorch Neural Network
+### Low-Level API
+#### Non-linear custom Pytorch Neural Network
 I build a custom non-linear pytorch neural network from scratch, having a 3-layer deep network, for linear regression 
 
 In this section, PyTorch built-in layer functionality will not be used.
 
-### Pytorch API Neural Networks
-
+### High-Level API
 #### A non-linear Pytorch API Neural Network
 I build pytorch classes based - 3 layer deep neural network for non linear regression using pytorch builtin functionality of modules etc.,. backprop etc.,.
 
