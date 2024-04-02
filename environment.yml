@@ -31,3 +31,4 @@ dependencies:
     - tensorflow
     - jax
     - jaxlib
+    - pytorch_lightning
